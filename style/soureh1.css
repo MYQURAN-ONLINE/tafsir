@@ -1,0 +1,597 @@
+body {
+  background: rgba(14, 91, 121, 0.3843137255);
+  margin: 0px;
+  padding: 0px;
+}
+
+.mene {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 88px;
+}
+
+.header {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 9px;
+}
+.header .axha {
+  display: inline;
+  width: 60%;
+  height: 100%;
+}
+.header .axha img {
+  width: 235px;
+  height: 327px;
+}
+.header .right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 49px;
+  align-items: center;
+}
+.header button {
+  color: white;
+  border-radius: 17px;
+  background: #763FBC;
+  width: 120px;
+  height: 59px;
+  border: none;
+}
+.header p {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.shoro {
+  color: #ffffff;
+  border-radius: 122px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(110, 87, 136, 0.411);
+  margin-top: 40px;
+  flex-direction: row;
+}
+.shoro h1 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.daster1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 20PX;
+}
+.daster1 .koli {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-top: 47px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daster1 .koli .matlab .icon {
+  margin-top: 10px;
+}
+.daster1 .koli .matlab .icon h5 {
+  margin: 15px;
+}
+
+.seda {
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.daste2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste2 .koli1 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste2 .koli1 .matlab1 .icon1 {
+  margin-top: 10px;
+}
+.daste2 .koli1 .matlab1 .icon1 h5 {
+  margin: 15px;
+}
+
+.daste3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste3 .koli3 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste3 .koli3 .matlab3 .icon3 {
+  margin-top: 10px;
+}
+.daste3 .koli3 .matlab3 .icon3 h5 {
+  margin: 15px;
+}
+
+.daste4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste4 .koli4 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste4 .koli4 .matlab4 .icon4 {
+  margin-top: 10px;
+}
+.daste4 .koli4 .matlab4 .icon4 h5 {
+  margin: 15px;
+}
+
+.daste5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste5 .koli5 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste5 .koli5 .matlab5 .icon5 {
+  margin-top: 10px;
+}
+.daste5 .koli5 .matlab5 .icon5 h5 {
+  margin: 15px;
+}
+
+.daste6 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste6 .koli6 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste6 .koli6 .matlab6 .icon6 {
+  margin-top: 10px;
+}
+.daste6 .koli6 .matlab6 .icon6 h5 {
+  margin: 15px;
+}
+
+.daste7 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste7 .koli7 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste7 .koli7 .matlab7 .icon7 {
+  margin-top: 10px;
+}
+.daste7 .koli7 .matlab7 .icon7 h5 {
+  margin: 15px;
+}
+
+.daste8 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste8 .koli8 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste8 .koli8 .matlab8 .icon8 {
+  margin-top: 10px;
+}
+.daste8 .koli8 .matlab8 .icon8 h5 {
+  margin: 15px;
+}
+
+.daste9 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste9 .koli9 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste9 .koli9 .matlab9 .icon9 {
+  margin-top: 10px;
+}
+.daste9 .koli9 .matlab9 .icon9 h5 {
+  margin: 15px;
+}
+
+.daste10 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste10 .koli10 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste10 .koli10 .matlab10 .icon10 {
+  margin-top: 10px;
+}
+.daste10 .koli10 .matlab10 .icon10 h5 {
+  margin: 15px;
+}
+
+.daste11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste11 .koli11 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste11 .koli11 .matlab11 .icon11 {
+  margin-top: 10px;
+}
+.daste11 .koli11 .matlab11 .icon11 h5 {
+  margin: 15px;
+}
+
+.daste12 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste12 .koli12 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste12 .koli12 .matlab12 .icon12 {
+  margin-top: 10px;
+}
+.daste12 .koli12 .matlab12 .icon12 h5 {
+  margin: 15px;
+}
+
+.daste13 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste13 .koli13 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste13 .koli13 .matlab13 .icon13 {
+  margin-top: 10px;
+}
+.daste13 .koli13 .matlab13 .icon13 h5 {
+  margin: 15px;
+}
+
+.daste14 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste14 .koli14 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste14 .koli14 .matlab14 .icon14 {
+  margin-top: 10px;
+}
+.daste14 .koli14 .matlab14 .icon14 h5 {
+  margin: 15px;
+}
+
+.daste15 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste15 .koli15 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste15 .koli15 .matlab15 .icon15 {
+  margin-top: 10px;
+}
+.daste15 .koli15 .matlab15 .icon15 h5 {
+  margin: 15px;
+}
+
+.daste16 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste16 .koli16 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste16 .koli16 .matlab16 .icon16 {
+  margin-top: 10px;
+}
+.daste16 .koli16 .matlab16 .icon16 h5 {
+  margin: 15px;
+}
+
+.daste17 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste17 .koli17 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste17 .koli17 .matlab17 .icon17 {
+  margin-top: 10px;
+}
+.daste17 .koli17 .matlab17 .icon17 h5 {
+  margin: 15px;
+}
+
+.daste18 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste18 .koli18 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste18 .koli18 .matlab18 .icon18 {
+  margin-top: 10px;
+}
+.daste18 .koli18 .matlab18 .icon18 h5 {
+  margin: 15px;
+}
+
+.daste19 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste19 .koli19 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste19 .koli19 .matlab19 .icon19 {
+  margin-top: 10px;
+}
+.daste19 .koli19 .matlab19 .icon19 h5 {
+  margin: 15px;
+}
+
+.daste20 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.daste20 .koli20 {
+  border-radius: 9px;
+  background-color: rgba(110, 87, 136, 0.411);
+  color: white;
+  font-size: 22px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+.daste20 .koli20 .matlab20 .icon20 {
+  margin-top: 10px;
+}
+.daste20 .koli20 .matlab20 .icon20 h5 {
+  margin: 15px;
+}/*# sourceMappingURL=soureh1.css.map */
